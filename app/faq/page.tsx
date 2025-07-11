@@ -109,7 +109,7 @@ export default function FaqPage() {
             Our support team is available 24/7 to help you with any questions or issues you might have.
           </p>
           <a
-            href="https://t.me/OfficialBankwallet"
+            href="https://t.me/Bankwalletadmin"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-2 w-full bg-black text-white py-2 rounded-md hover:bg-gray-900 transition-colors"
