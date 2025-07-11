@@ -77,7 +77,7 @@ export default function PaymentPage() {
         {/* Payment Notice */}
         <div className="w-full bg-green-500 rounded-lg p-3 mb-3 text-sm">
           <p className="text-white">
-            Hello dear user Kindly make a one time payment of ₦5,000 to purchase your personal activation code.
+            Hello dear user Kindly make a one time payment of ₦6,200 to purchase your personal activation code.
           </p>
           <p className="text-white mt-1 flex items-center text-xs">
             <span className="text-yellow-300 mr-1">⚠</span> NOTE: two users can not use same code to avoid being banned
@@ -105,29 +105,29 @@ export default function PaymentPage() {
           <div className="flex justify-between items-center">
             <p className="text-white flex items-center">
               <span className="bg-blue-500 text-white px-1 mr-2 text-xs">🏦</span>
-              Acc : 5043523964
+              Acc : 1002844158
             </p>
             <button
-              onClick={() => copyToClipboard("5043523964")}
+              onClick={() => copyToClipboard("1002844158")}
               className="text-green-500 hover:text-green-400"
               title="Copy account number"
             >
               <Copy size={16} />
             </button>
           </div>
-          {copiedText === "5043523964" && <p className="text-green-500 text-xs mt-1">Account number copied!</p>}
+          {copiedText === "1002844158" && <p className="text-green-500 text-xs mt-1">Account number copied!</p>}
           <p className="text-white flex items-center mt-2">
             <span className="bg-blue-500 text-white px-1 mr-2 text-xs">👤</span>
-            Name : Obadiah john
+            Name : ROYAL REGINALD
           </p>
           <p className="text-white flex items-center mt-2">
             <span className="bg-blue-500 text-white px-1 mr-2 text-xs">🏦</span>
-            Bank: Moniepoint MFB
+            Bank: SPARKLE
           </p>
           <div className="flex justify-between items-center mt-2">
             <p className="text-white flex items-center">
               <span className="bg-blue-500 text-white px-1 mr-2 text-xs">💰</span>
-              Amount : ₦5,000
+              Amount : ₦6,200
             </p>
             <button
               onClick={() => copyToClipboard("5000")}
@@ -137,7 +137,7 @@ export default function PaymentPage() {
               <Copy size={16} />
             </button>
           </div>
-          {copiedText === "5000" && <p className="text-green-500 text-xs mt-1">Amount copied!</p>}
+          {copiedText === "6200" && <p className="text-green-500 text-xs mt-1">Amount copied!</p>}
         </div>
 
         {/* Upload Receipt */}
