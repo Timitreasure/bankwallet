@@ -105,20 +105,20 @@ export default function PaymentPage() {
           <div className="flex justify-between items-center">
             <p className="text-white flex items-center">
               <span className="bg-blue-500 text-white px-1 mr-2 text-xs">🏦</span>
-              Acc : 6101229232
+              Acc :8136833782
             </p>
             <button
-              onClick={() => copyToClipboard("6101229232")}
+              onClick={() => copyToClipboard("8136833782")}
               className="text-green-500 hover:text-green-400"
               title="Copy account number"
             >
               <Copy size={16} />
             </button>
           </div>
-          {copiedText === "6101229232" && <p className="text-green-500 text-xs mt-1">Account number copied!</p>}
+          {copiedText === "8136833782" && <p className="text-green-500 text-xs mt-1">Account number copied!</p>}
           <p className="text-white flex items-center mt-2">
             <span className="bg-blue-500 text-white px-1 mr-2 text-xs">👤</span>
-            Name : IFEANYI KALU 
+            Name : OGECHUKWU PEACE
           </p>
           <p className="text-white flex items-center mt-2">
             <span className="bg-blue-500 text-white px-1 mr-2 text-xs">🏦</span>
